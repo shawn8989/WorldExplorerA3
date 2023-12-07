@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.1",
+	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -29,11 +29,11 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f"
 		},
 		{
-			"Name": "Text3D",
+			"Name": "OpenAIAPI",
 			"Enabled": true
 		},
 		{
-			"Name": "OpenAIAPI",
+			"Name": "Text3D",
 			"Enabled": true
 		}
 	]
