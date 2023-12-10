@@ -27,7 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenAIAPI_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x023BB6DA,
+				0xA244215E,
 				0xCF625B88,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -35,5 +35,5 @@ void EmptyLinkFunctionForGeneratedCodeOpenAIAPI_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_OpenAIAPI.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_OpenAIAPI(Z_Construct_UPackage__Script_OpenAIAPI, TEXT("/Script/OpenAIAPI"), Z_Registration_Info_UPackage__Script_OpenAIAPI, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x023BB6DA, 0xCF625B88));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_OpenAIAPI(Z_Construct_UPackage__Script_OpenAIAPI, TEXT("/Script/OpenAIAPI"), Z_Registration_Info_UPackage__Script_OpenAIAPI, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xA244215E, 0xCF625B88));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

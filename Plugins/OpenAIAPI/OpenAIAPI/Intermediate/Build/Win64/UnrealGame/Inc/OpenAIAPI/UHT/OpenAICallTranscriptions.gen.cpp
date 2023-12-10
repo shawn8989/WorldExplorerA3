@@ -179,7 +179,9 @@ void FOnTranscriptionResponseRecievedPin_DelegateWrapper(const FMulticastScriptD
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenAICallTranscriptions_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOpenAICallTranscriptions_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "IncludePath", "OpenAICallTranscriptions.h" },
 		{ "ModuleRelativePath", "Public/OpenAICallTranscriptions.h" },
 	};
@@ -226,15 +228,15 @@ void FOnTranscriptionResponseRecievedPin_DelegateWrapper(const FMulticastScriptD
 		return UOpenAICallTranscriptions::StaticClass();
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenAICallTranscriptions);
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallTranscriptions_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallTranscriptions_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallTranscriptions_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOpenAICallTranscriptions, UOpenAICallTranscriptions::StaticClass, TEXT("UOpenAICallTranscriptions"), &Z_Registration_Info_UClass_UOpenAICallTranscriptions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOpenAICallTranscriptions), 3825835443U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallTranscriptions_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOpenAICallTranscriptions, UOpenAICallTranscriptions::StaticClass, TEXT("UOpenAICallTranscriptions"), &Z_Registration_Info_UClass_UOpenAICallTranscriptions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOpenAICallTranscriptions), 2995266499U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallTranscriptions_h_3398924967(TEXT("/Script/OpenAIAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallTranscriptions_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallTranscriptions_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallTranscriptions_h_2525780715(TEXT("/Script/OpenAIAPI"),
+		Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallTranscriptions_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallTranscriptions_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

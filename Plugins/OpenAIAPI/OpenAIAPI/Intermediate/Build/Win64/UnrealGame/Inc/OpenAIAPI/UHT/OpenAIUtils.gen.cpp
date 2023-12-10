@@ -141,7 +141,9 @@ void EmptyLinkFunctionForGeneratedCodeOpenAIUtils() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenAIUtils_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOpenAIUtils_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "IncludePath", "OpenAIUtils.h" },
 		{ "ModuleRelativePath", "Public/OpenAIUtils.h" },
 	};
@@ -179,15 +181,15 @@ void EmptyLinkFunctionForGeneratedCodeOpenAIUtils() {}
 	UOpenAIUtils::UOpenAIUtils(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenAIUtils);
 	UOpenAIUtils::~UOpenAIUtils() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIUtils_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIUtils_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIUtils_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOpenAIUtils, UOpenAIUtils::StaticClass, TEXT("UOpenAIUtils"), &Z_Registration_Info_UClass_UOpenAIUtils, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOpenAIUtils), 16722043U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIUtils_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOpenAIUtils, UOpenAIUtils::StaticClass, TEXT("UOpenAIUtils"), &Z_Registration_Info_UClass_UOpenAIUtils, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOpenAIUtils), 462314039U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIUtils_h_686372815(TEXT("/Script/OpenAIAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIUtils_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIUtils_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIUtils_h_871748245(TEXT("/Script/OpenAIAPI"),
+		Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIUtils_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIUtils_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

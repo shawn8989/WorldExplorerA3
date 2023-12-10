@@ -47,7 +47,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenAICallChat() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_OpenAIAPI_OnResponseRecievedPin__DelegateSignature_Statics::NewProp_message = { "message", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_OpenAIAPI_eventOnResponseRecievedPin_Parms, message), Z_Construct_UScriptStruct_FChatCompletion, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_OpenAIAPI_OnResponseRecievedPin__DelegateSignature_Statics::NewProp_message_MetaData), Z_Construct_UDelegateFunction_OpenAIAPI_OnResponseRecievedPin__DelegateSignature_Statics::NewProp_message_MetaData) }; // 913361628
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_OpenAIAPI_OnResponseRecievedPin__DelegateSignature_Statics::NewProp_message = { "message", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_OpenAIAPI_eventOnResponseRecievedPin_Parms, message), Z_Construct_UScriptStruct_FChatCompletion, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_OpenAIAPI_OnResponseRecievedPin__DelegateSignature_Statics::NewProp_message_MetaData), Z_Construct_UDelegateFunction_OpenAIAPI_OnResponseRecievedPin__DelegateSignature_Statics::NewProp_message_MetaData) }; // 3362108115
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_OpenAIAPI_OnResponseRecievedPin__DelegateSignature_Statics::NewProp_errorMessage_MetaData[] = {
 		{ "NativeConst", "" },
@@ -126,7 +126,7 @@ void FOnResponseRecievedPin_DelegateWrapper(const FMulticastScriptDelegate& OnRe
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOpenAICallChat_OpenAICallChat_Statics::NewProp_chatSettings = { "chatSettings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OpenAICallChat_eventOpenAICallChat_Parms, chatSettings), Z_Construct_UScriptStruct_FChatSettings, METADATA_PARAMS(0, nullptr) }; // 862376800
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOpenAICallChat_OpenAICallChat_Statics::NewProp_chatSettings = { "chatSettings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OpenAICallChat_eventOpenAICallChat_Parms, chatSettings), Z_Construct_UScriptStruct_FChatSettings, METADATA_PARAMS(0, nullptr) }; // 1208552705
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOpenAICallChat_OpenAICallChat_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OpenAICallChat_eventOpenAICallChat_Parms, ReturnValue), Z_Construct_UClass_UOpenAICallChat_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOpenAICallChat_OpenAICallChat_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOpenAICallChat_OpenAICallChat_Statics::NewProp_chatSettings,
@@ -177,12 +177,14 @@ void FOnResponseRecievedPin_DelegateWrapper(const FMulticastScriptDelegate& OnRe
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenAICallChat_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UOpenAICallChat_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOpenAICallChat_OpenAICallChat, "OpenAICallChat" }, // 3742219202
+		{ &Z_Construct_UFunction_UOpenAICallChat_OpenAICallChat, "OpenAICallChat" }, // 2682311399
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenAICallChat_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOpenAICallChat_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "IncludePath", "OpenAICallChat.h" },
 		{ "ModuleRelativePath", "Public/OpenAICallChat.h" },
 	};
@@ -193,7 +195,7 @@ void FOnResponseRecievedPin_DelegateWrapper(const FMulticastScriptDelegate& OnRe
 		{ "ModuleRelativePath", "Public/OpenAICallChat.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UOpenAICallChat_Statics::NewProp_Finished = { "Finished", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOpenAICallChat, Finished), Z_Construct_UDelegateFunction_OpenAIAPI_OnResponseRecievedPin__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenAICallChat_Statics::NewProp_Finished_MetaData), Z_Construct_UClass_UOpenAICallChat_Statics::NewProp_Finished_MetaData) }; // 2145548492
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UOpenAICallChat_Statics::NewProp_Finished = { "Finished", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOpenAICallChat, Finished), Z_Construct_UDelegateFunction_OpenAIAPI_OnResponseRecievedPin__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenAICallChat_Statics::NewProp_Finished_MetaData), Z_Construct_UClass_UOpenAICallChat_Statics::NewProp_Finished_MetaData) }; // 503187242
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UOpenAICallChat_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenAICallChat_Statics::NewProp_Finished,
 	};
@@ -229,15 +231,15 @@ void FOnResponseRecievedPin_DelegateWrapper(const FMulticastScriptDelegate& OnRe
 		return UOpenAICallChat::StaticClass();
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenAICallChat);
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallChat_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallChat_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallChat_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOpenAICallChat, UOpenAICallChat::StaticClass, TEXT("UOpenAICallChat"), &Z_Registration_Info_UClass_UOpenAICallChat, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOpenAICallChat), 4107874619U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallChat_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOpenAICallChat, UOpenAICallChat::StaticClass, TEXT("UOpenAICallChat"), &Z_Registration_Info_UClass_UOpenAICallChat, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOpenAICallChat), 40136559U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallChat_h_4225836804(TEXT("/Script/OpenAIAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallChat_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallChat_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallChat_h_2141198252(TEXT("/Script/OpenAIAPI"),
+		Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallChat_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallChat_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

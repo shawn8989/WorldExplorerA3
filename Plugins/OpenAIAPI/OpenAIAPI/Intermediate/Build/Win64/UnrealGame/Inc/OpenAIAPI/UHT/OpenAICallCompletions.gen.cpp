@@ -50,13 +50,13 @@ void EmptyLinkFunctionForGeneratedCodeOpenAICallCompletions() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature_Statics::NewProp_completions_Inner = { "completions", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FCompletion, METADATA_PARAMS(0, nullptr) }; // 243783759
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature_Statics::NewProp_completions_Inner = { "completions", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FCompletion, METADATA_PARAMS(0, nullptr) }; // 4145907126
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature_Statics::NewProp_completions_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature_Statics::NewProp_completions = { "completions", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_OpenAIAPI_eventOnGptResponseRecievedPin_Parms, completions), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature_Statics::NewProp_completions_MetaData), Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature_Statics::NewProp_completions_MetaData) }; // 243783759
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature_Statics::NewProp_completions = { "completions", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_OpenAIAPI_eventOnGptResponseRecievedPin_Parms, completions), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature_Statics::NewProp_completions_MetaData), Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature_Statics::NewProp_completions_MetaData) }; // 4145907126
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature_Statics::NewProp_errorMessage_MetaData[] = {
 		{ "NativeConst", "" },
@@ -155,7 +155,7 @@ void FOnGptResponseRecievedPin_DelegateWrapper(const FMulticastScriptDelegate& O
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOpenAICallCompletions_OpenAICallCompletions_Statics::NewProp_engine_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOpenAICallCompletions_OpenAICallCompletions_Statics::NewProp_engine = { "engine", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OpenAICallCompletions_eventOpenAICallCompletions_Parms, engine), Z_Construct_UEnum_OpenAIAPI_EOACompletionsEngineType, METADATA_PARAMS(0, nullptr) }; // 2192595419
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOpenAICallCompletions_OpenAICallCompletions_Statics::NewProp_prompt = { "prompt", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OpenAICallCompletions_eventOpenAICallCompletions_Parms, prompt), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOpenAICallCompletions_OpenAICallCompletions_Statics::NewProp_settings = { "settings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OpenAICallCompletions_eventOpenAICallCompletions_Parms, settings), Z_Construct_UScriptStruct_FCompletionSettings, METADATA_PARAMS(0, nullptr) }; // 2462121157
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOpenAICallCompletions_OpenAICallCompletions_Statics::NewProp_settings = { "settings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OpenAICallCompletions_eventOpenAICallCompletions_Parms, settings), Z_Construct_UScriptStruct_FCompletionSettings, METADATA_PARAMS(0, nullptr) }; // 2375840809
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOpenAICallCompletions_OpenAICallCompletions_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OpenAICallCompletions_eventOpenAICallCompletions_Parms, ReturnValue), Z_Construct_UClass_UOpenAICallCompletions_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOpenAICallCompletions_OpenAICallCompletions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOpenAICallCompletions_OpenAICallCompletions_Statics::NewProp_engine_Underlying,
@@ -209,12 +209,14 @@ void FOnGptResponseRecievedPin_DelegateWrapper(const FMulticastScriptDelegate& O
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenAICallCompletions_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UOpenAICallCompletions_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOpenAICallCompletions_OpenAICallCompletions, "OpenAICallCompletions" }, // 4166725232
+		{ &Z_Construct_UFunction_UOpenAICallCompletions_OpenAICallCompletions, "OpenAICallCompletions" }, // 1822347676
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenAICallCompletions_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOpenAICallCompletions_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "IncludePath", "OpenAICallCompletions.h" },
 		{ "ModuleRelativePath", "Public/OpenAICallCompletions.h" },
 	};
@@ -225,7 +227,7 @@ void FOnGptResponseRecievedPin_DelegateWrapper(const FMulticastScriptDelegate& O
 		{ "ModuleRelativePath", "Public/OpenAICallCompletions.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UOpenAICallCompletions_Statics::NewProp_Finished = { "Finished", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOpenAICallCompletions, Finished), Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenAICallCompletions_Statics::NewProp_Finished_MetaData), Z_Construct_UClass_UOpenAICallCompletions_Statics::NewProp_Finished_MetaData) }; // 1436180410
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UOpenAICallCompletions_Statics::NewProp_Finished = { "Finished", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOpenAICallCompletions, Finished), Z_Construct_UDelegateFunction_OpenAIAPI_OnGptResponseRecievedPin__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenAICallCompletions_Statics::NewProp_Finished_MetaData), Z_Construct_UClass_UOpenAICallCompletions_Statics::NewProp_Finished_MetaData) }; // 2936916236
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UOpenAICallCompletions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenAICallCompletions_Statics::NewProp_Finished,
 	};
@@ -261,15 +263,15 @@ void FOnGptResponseRecievedPin_DelegateWrapper(const FMulticastScriptDelegate& O
 		return UOpenAICallCompletions::StaticClass();
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenAICallCompletions);
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallCompletions_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallCompletions_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallCompletions_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOpenAICallCompletions, UOpenAICallCompletions::StaticClass, TEXT("UOpenAICallCompletions"), &Z_Registration_Info_UClass_UOpenAICallCompletions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOpenAICallCompletions), 608111143U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallCompletions_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOpenAICallCompletions, UOpenAICallCompletions::StaticClass, TEXT("UOpenAICallCompletions"), &Z_Registration_Info_UClass_UOpenAICallCompletions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOpenAICallCompletions), 2623834725U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallCompletions_h_584685922(TEXT("/Script/OpenAIAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallCompletions_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallCompletions_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallCompletions_h_2354068056(TEXT("/Script/OpenAIAPI"),
+		Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallCompletions_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAICallCompletions_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

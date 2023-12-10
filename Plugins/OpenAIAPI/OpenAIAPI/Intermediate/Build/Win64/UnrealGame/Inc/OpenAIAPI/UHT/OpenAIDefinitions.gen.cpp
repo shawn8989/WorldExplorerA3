@@ -306,9 +306,13 @@ template<> OPENAIAPI_API UScriptStruct* StaticStruct<FChatLog>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FChatLog_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Structs for GPT\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Structs for GPT" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FChatLog_Statics::NewStructOps()
@@ -508,9 +512,13 @@ template<> OPENAIAPI_API UScriptStruct* StaticStruct<FCompletion>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletion_Statics::NewProp_text_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// OpenAI's response.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "OpenAI's response." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FCompletion_Statics::NewProp_text = { "text", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletion, text), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletion_Statics::NewProp_text_MetaData), Z_Construct_UScriptStruct_FCompletion_Statics::NewProp_text_MetaData) };
@@ -598,12 +606,16 @@ template<> OPENAIAPI_API UScriptStruct* StaticStruct<FChatCompletion>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FChatCompletion_Statics::NewProp_message_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// OpenAI's response.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "OpenAI's response." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FChatCompletion_Statics::NewProp_message = { "message", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FChatCompletion, message), Z_Construct_UScriptStruct_FChatLog, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FChatCompletion_Statics::NewProp_message_MetaData), Z_Construct_UScriptStruct_FChatCompletion_Statics::NewProp_message_MetaData) }; // 3804501962
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FChatCompletion_Statics::NewProp_message = { "message", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FChatCompletion, message), Z_Construct_UScriptStruct_FChatLog, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FChatCompletion_Statics::NewProp_message_MetaData), Z_Construct_UScriptStruct_FChatCompletion_Statics::NewProp_message_MetaData) }; // 2751939010
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FChatCompletion_Statics::NewProp_finishReason_MetaData[] = {
 		{ "Category", "OpenAI" },
@@ -721,27 +733,39 @@ template<> OPENAIAPI_API UScriptStruct* StaticStruct<FCompletionSettings>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_startSequence_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** A sequence that is appended to the start of your prompt */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A sequence that is appended to the start of your prompt" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_startSequence = { "startSequence", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, startSequence), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_startSequence_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_startSequence_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_injectStartText_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** A sequence that is appended at the beginning of your prompt */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A sequence that is appended at the beginning of your prompt" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_injectStartText = { "injectStartText", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, injectStartText), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_injectStartText_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_injectStartText_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_injectRestartText_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** A sequence that is appended to the start of your prompt */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A sequence that is appended to the start of your prompt" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_injectRestartText = { "injectRestartText", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, injectRestartText), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_injectRestartText_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_injectRestartText_MetaData) };
@@ -749,81 +773,117 @@ template<> OPENAIAPI_API UScriptStruct* StaticStruct<FCompletionSettings>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_stopSequences_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Up to four sequences where the API will stop generating further tokens. The returned text will not contain the stop sequence. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Up to four sequences where the API will stop generating further tokens. The returned text will not contain the stop sequence." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_stopSequences = { "stopSequences", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, stopSequences), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_stopSequences_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_stopSequences_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_maxTokens_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The maximum number of tokens to generate. Requests can use up to 2048 tokens shared between prompt and completion. (One token is roughly 4 characters for normal English text) */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The maximum number of tokens to generate. Requests can use up to 2048 tokens shared between prompt and completion. (One token is roughly 4 characters for normal English text)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_maxTokens = { "maxTokens", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, maxTokens), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_maxTokens_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_maxTokens_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_temperature_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** What sampling temperature to use. Higher values means the model will take more risks. Try 0.9 for more creative applications, and 0 (argmax sampling) for ones with a well-defined answer. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "What sampling temperature to use. Higher values means the model will take more risks. Try 0.9 for more creative applications, and 0 (argmax sampling) for ones with a well-defined answer." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_temperature = { "temperature", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, temperature), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_temperature_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_temperature_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_topP_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered.  */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_topP = { "topP", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, topP), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_topP_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_topP_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_logprobs_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If logProbs is greater than 0, the model returns tokens, token_logprobs, and the text_offsets for a given completion. (support for top_logprobs will be added soon)*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If logProbs is greater than 0, the model returns tokens, token_logprobs, and the text_offsets for a given completion. (support for top_logprobs will be added soon)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_logprobs = { "logprobs", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, logprobs), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_logprobs_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_logprobs_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_numCompletions_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** How many completions to generate for each prompt. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How many completions to generate for each prompt." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_numCompletions = { "numCompletions", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, numCompletions), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_numCompletions_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_numCompletions_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_frequencyPenalty_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Number between 0 and 1 that penalizes new tokens based on their existing frequency in the text so far. Decreases the model's likelihood to repeat the same line verbatim. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Number between 0 and 1 that penalizes new tokens based on their existing frequency in the text so far. Decreases the model's likelihood to repeat the same line verbatim." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_frequencyPenalty = { "frequencyPenalty", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, frequencyPenalty), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_frequencyPenalty_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_frequencyPenalty_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_presencePenalty_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Number between 0 and 1 that penalizes new tokens based on whether they appear in the text so far. Increases the model's likelihood to talk about new topics. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Number between 0 and 1 that penalizes new tokens based on whether they appear in the text so far. Increases the model's likelihood to talk about new topics." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_presencePenalty = { "presencePenalty", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, presencePenalty), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_presencePenalty_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_presencePenalty_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_bestOf_MetaData[] = {
 		{ "Category", "OpenAI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Generates best_of completions server-side and returns the \"best\" (the one with the lowest log probability per token). */" },
+#endif
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Generates best_of completions server-side and returns the \"best\" (the one with the lowest log probability per token)." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_bestOf = { "bestOf", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompletionSettings, bestOf), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_bestOf_MetaData), Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewProp_bestOf_MetaData) };
@@ -922,14 +982,14 @@ template<> OPENAIAPI_API UScriptStruct* StaticStruct<FChatSettings>()
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_model = { "model", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FChatSettings, model), Z_Construct_UEnum_OpenAIAPI_EOAChatEngineType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_model_MetaData), Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_model_MetaData) }; // 267474262
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_messages_Inner = { "messages", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FChatLog, METADATA_PARAMS(0, nullptr) }; // 3804501962
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_messages_Inner = { "messages", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FChatLog, METADATA_PARAMS(0, nullptr) }; // 2751939010
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_messages_MetaData[] = {
 		{ "Category", "OpenAI" },
 		{ "ModuleRelativePath", "Public/OpenAIDefinitions.h" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_messages = { "messages", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FChatSettings, messages), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_messages_MetaData), Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_messages_MetaData) }; // 3804501962
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_messages = { "messages", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FChatSettings, messages), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_messages_MetaData), Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_messages_MetaData) }; // 2751939010
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FChatSettings_Statics::NewProp_temperature_MetaData[] = {
 		{ "Category", "OpenAI" },
@@ -974,27 +1034,27 @@ template<> OPENAIAPI_API UScriptStruct* StaticStruct<FChatSettings>()
 		}
 		return Z_Registration_Info_UScriptStruct_ChatSettings.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::EnumInfo[] = {
 		{ EOACompletionsEngineType_StaticEnum, TEXT("EOACompletionsEngineType"), &Z_Registration_Info_UEnum_EOACompletionsEngineType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2192595419U) },
 		{ EOAChatEngineType_StaticEnum, TEXT("EOAChatEngineType"), &Z_Registration_Info_UEnum_EOAChatEngineType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 267474262U) },
 		{ EOAChatRole_StaticEnum, TEXT("EOAChatRole"), &Z_Registration_Info_UEnum_EOAChatRole, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3187640111U) },
 		{ EOAImageSize_StaticEnum, TEXT("EOAImageSize"), &Z_Registration_Info_UEnum_EOAImageSize, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3872677235U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::ScriptStructInfo[] = {
-		{ FChatLog::StaticStruct, Z_Construct_UScriptStruct_FChatLog_Statics::NewStructOps, TEXT("ChatLog"), &Z_Registration_Info_UScriptStruct_ChatLog, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FChatLog), 3804501962U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::ScriptStructInfo[] = {
+		{ FChatLog::StaticStruct, Z_Construct_UScriptStruct_FChatLog_Statics::NewStructOps, TEXT("ChatLog"), &Z_Registration_Info_UScriptStruct_ChatLog, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FChatLog), 2751939010U) },
 		{ FCompletionInfo::StaticStruct, Z_Construct_UScriptStruct_FCompletionInfo_Statics::NewStructOps, TEXT("CompletionInfo"), &Z_Registration_Info_UScriptStruct_CompletionInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompletionInfo), 3955296603U) },
-		{ FCompletion::StaticStruct, Z_Construct_UScriptStruct_FCompletion_Statics::NewStructOps, TEXT("Completion"), &Z_Registration_Info_UScriptStruct_Completion, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompletion), 243783759U) },
-		{ FChatCompletion::StaticStruct, Z_Construct_UScriptStruct_FChatCompletion_Statics::NewStructOps, TEXT("ChatCompletion"), &Z_Registration_Info_UScriptStruct_ChatCompletion, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FChatCompletion), 913361628U) },
-		{ FCompletionSettings::StaticStruct, Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewStructOps, TEXT("CompletionSettings"), &Z_Registration_Info_UScriptStruct_CompletionSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompletionSettings), 2462121157U) },
-		{ FChatSettings::StaticStruct, Z_Construct_UScriptStruct_FChatSettings_Statics::NewStructOps, TEXT("ChatSettings"), &Z_Registration_Info_UScriptStruct_ChatSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FChatSettings), 862376800U) },
+		{ FCompletion::StaticStruct, Z_Construct_UScriptStruct_FCompletion_Statics::NewStructOps, TEXT("Completion"), &Z_Registration_Info_UScriptStruct_Completion, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompletion), 4145907126U) },
+		{ FChatCompletion::StaticStruct, Z_Construct_UScriptStruct_FChatCompletion_Statics::NewStructOps, TEXT("ChatCompletion"), &Z_Registration_Info_UScriptStruct_ChatCompletion, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FChatCompletion), 3362108115U) },
+		{ FCompletionSettings::StaticStruct, Z_Construct_UScriptStruct_FCompletionSettings_Statics::NewStructOps, TEXT("CompletionSettings"), &Z_Registration_Info_UScriptStruct_CompletionSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompletionSettings), 2375840809U) },
+		{ FChatSettings::StaticStruct, Z_Construct_UScriptStruct_FChatSettings_Statics::NewStructOps, TEXT("ChatSettings"), &Z_Registration_Info_UScriptStruct_ChatSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FChatSettings), 1208552705U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_3017912936(TEXT("/Script/OpenAIAPI"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_2769096941(TEXT("/Script/OpenAIAPI"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

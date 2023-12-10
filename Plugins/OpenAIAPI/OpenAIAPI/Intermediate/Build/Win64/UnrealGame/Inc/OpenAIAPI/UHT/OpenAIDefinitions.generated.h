@@ -14,42 +14,42 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OPENAIAPI_OpenAIDefinitions_generated_h
 
-#define FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_53_GENERATED_BODY \
+#define FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_53_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FChatLog_Statics; \
 	OPENAIAPI_API static class UScriptStruct* StaticStruct();
 
 
 template<> OPENAIAPI_API UScriptStruct* StaticStruct<struct FChatLog>();
 
-#define FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_64_GENERATED_BODY \
+#define FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_64_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FCompletionInfo_Statics; \
 	OPENAIAPI_API static class UScriptStruct* StaticStruct();
 
 
 template<> OPENAIAPI_API UScriptStruct* StaticStruct<struct FCompletionInfo>();
 
-#define FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_83_GENERATED_BODY \
+#define FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_83_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FCompletion_Statics; \
 	OPENAIAPI_API static class UScriptStruct* StaticStruct();
 
 
 template<> OPENAIAPI_API UScriptStruct* StaticStruct<struct FCompletion>();
 
-#define FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_100_GENERATED_BODY \
+#define FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_100_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FChatCompletion_Statics; \
 	OPENAIAPI_API static class UScriptStruct* StaticStruct();
 
 
 template<> OPENAIAPI_API UScriptStruct* StaticStruct<struct FChatCompletion>();
 
-#define FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_123_GENERATED_BODY \
+#define FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_123_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FCompletionSettings_Statics; \
 	OPENAIAPI_API static class UScriptStruct* StaticStruct();
 
 
 template<> OPENAIAPI_API UScriptStruct* StaticStruct<struct FCompletionSettings>();
 
-#define FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_178_GENERATED_BODY \
+#define FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h_178_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FChatSettings_Statics; \
 	OPENAIAPI_API static class UScriptStruct* StaticStruct();
 
@@ -57,7 +57,7 @@ template<> OPENAIAPI_API UScriptStruct* StaticStruct<struct FCompletionSettings>
 template<> OPENAIAPI_API UScriptStruct* StaticStruct<struct FChatSettings>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_HostProject_Plugins_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h
+#define CURRENT_FILE_ID FID_Users_owens_Desktop_WorldExplorerA3_5_3_Plugins_OpenAIAPI_OpenAIAPI_Source_OpenAIAPI_Public_OpenAIDefinitions_h
 
 
 #define FOREACH_ENUM_EOACOMPLETIONSENGINETYPE(op) \
